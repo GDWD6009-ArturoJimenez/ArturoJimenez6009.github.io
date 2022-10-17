@@ -1,0 +1,37 @@
+#container {
+
+    background-color: rgb(113, 113, 226) ;
+}
+
+
+
+
+#header {
+    
+    background-color: rgb(115, 194, 223);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#container1 {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(109, 157, 235);
+    margin: 2.2%;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#container2 {
+    height: 500px;
+    width: 40%;
+    margin: 3.5%;
+    background-color: rgb(109, 157, 235);
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+
+}
