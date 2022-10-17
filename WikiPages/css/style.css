@@ -1,0 +1,30 @@
+#nav{
+    align: left;
+}
+#nav2{
+    text-align: left;
+    float: mid-left;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+#content-box{
+    text-align: center;
+    list-style: none;
+    width: 45%;
+    height: 15%;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+#topic{
+    text-align: center;
+    float: mid-center;
+    width: 75%;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    display:inline-block ;
+}
