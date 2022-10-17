@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Box Model</title>
+</head>
+<body>
+  <div id="container">
+
+
+
+   <div id="header">
+
+      <h1>The Box Model</h1>
+
+   </div>
+  
+
+  
+
+
+      <section id="container1">
+
+        <h2> Article 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iuto at quis autem fugit minus corporis ducimus, veniam, quo distinctio excepturi sunt reprehenderit, aperiam hic amet ratione rerum asperiores sint cupiditate ex ipsam accusamus facilis. Excepturi laborum quaerat, quam sunt officia ducimus numquam delectus expedita quos enim quas ratione ipsam labore dolorum voluptate nemo quia recusandae!
+        </p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque a neque dolorem quod consequatur provident nesciunt maxime optio? Alias tenetur rerum eius! Commodi quis sit sequi nostrum deserunt assumenda! Provident reiciendis odit facilis esse inventore iure velit architecto dolor ipsum! Sunt totam deserunt iure. Voluptatem ea earum in dolores ut quis quae minus ipsum.
+       </p>
+     
+      </section>
+
+
+      <section id="container2">
+        <h2> Article 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at quis autem fugit minus corporis ducimus, veniam, quo distinctio excepturi sunt reprehenderit, aperiam hic amet ratione rerum asperiores sint cupiditate ex ipsam accusamus facilis. Excepturi laborum quaerat, quam sunt officia ducimus numquam delectus expedita quos enim quas ratione ipsam labore dolorum voluptate nemo quia recusandae!
+         </p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque a neque dolorem quod consequatur provident nesciunt maxime optio? Alias tenetur rerum eius! Commodi quis sit sequi nostrum deserunt assumenda! Provident reiciendis odit facilis esse inventore iure velit architecto dolor ipsum! Sunt totam deserunt iure. Voluptatem ea earum in dolores ut quis quae minus ipsum.
+         </p>
+
+    </section>
+  </div> 
+
+</body>
+</html>
