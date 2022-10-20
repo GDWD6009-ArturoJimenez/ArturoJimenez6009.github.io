@@ -1,0 +1,60 @@
+ul{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+.signup{
+    display: inline-flex;
+    padding: 1.5%;
+    justify-content: flex-end;
+    font-family: 'Lobster Two', cursive;
+}
+ #Home{
+    margin-left: 100%;
+
+ }
+
+.login{
+    display: inline-flex;
+    padding: 1.5%;
+    justify-content: flex-start;
+    font-family: 'Lobster Two', cursive;
+}
+
+li{
+    margin: .05%;
+    padding: 2%;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: rgb(179, 120, 235);
+    padding: 10px;
+}
+
+nav{
+    background-color: rgb(243, 139, 156);
+    padding: 1%;
+   
+}
+
+#home{
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px){
+    ul {
+        flex-direction: row;
+    }
+
+}
+
+ 
