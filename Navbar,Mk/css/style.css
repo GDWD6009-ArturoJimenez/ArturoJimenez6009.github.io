@@ -5,10 +5,28 @@ a:hover{
     text-decoration: none;
 }
 
-nav{
+#navbar1 {
     background-color: rgb(239, 238, 238);
+    height: 40px;
+    text-align: center;
+    position: relative;
 }
 
+#navbar2 {
+    background-color: rgb(243, 199, 199);
+    width: 100%;
+    position: fixed;
+}
+
+#navbar3 {
+    background-color: rgb(193, 190, 237);
+    width: ;
+    text-align: center;
+    position: relative;
+}
+
+
 Li nav{
+    list-style: none;
     display: inline;
 }
