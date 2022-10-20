@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+nav{
+    background-color: gray;
+}
+
+Li nav{
+    display: inline;
+}
