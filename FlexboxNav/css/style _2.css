@@ -7,18 +7,26 @@ ul{
 }
 
 .signup{
-    display: inline-flex;
+    display: right;
     padding: 1.5%;
     justify-content: flex-end;
     font-family: 'Lobster Two', cursive;
+    margin-left: 20px;
 }
  #Home{
     margin-left: 100%;
 
  }
 
+ .link {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+ }
+
 .login{
-    display: inline-flex;
+    display: right;
+    margin-left: 20px;
     padding: 1.5%;
     justify-content: flex-start;
     font-family: 'Lobster Two', cursive;
@@ -44,6 +52,11 @@ nav{
     background-color: rgb(243, 139, 156);
     padding: 1%;
    
+}
+
+div{
+    display: contents;
+    text-align: right;
 }
 
 #home{
