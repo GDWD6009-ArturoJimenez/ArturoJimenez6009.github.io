@@ -55,28 +55,32 @@ a{
     text-decoration: none;
 }
 
-
+h3, h4 {
+    font-family: 'Lobster', cursive;
+}
 
 a:hover {
     background-color: rgb(179, 120, 235);
     padding: 10px;
 }
 
+p{
+    font-family: 'Lobster Two', cursive;
+}
+
 .dropdown-menu {
+    border: 2px solid #ffff;
+    background-color: bisque;
     display: flex;
     flex-direction: column;
     width: 30%;
     margin: 10px;
-    border: 2px solid #ffff;
     position: absolute;
     opacity: 0;
-    background-color: bisque;
-
 }
 
 .dropdown:hover .dropdown-menu {
     opacity: 1;
-
 }
 
 @media only screen and (max-width: 768px){
