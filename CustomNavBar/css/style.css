@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(114, 207, 238);
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(169, 141, 107);
+    background-color: rgb(254, 223, 194);
+    padding: 20px;
+    width: fit-content;
+    border-radius: 75px;
+}
+
+ul{
+    display: flex;
+    padding: 2px;
+    justify-content: flex-start;
+    font-family: 'Lobster Two', cursive;
+}
+
+li{
+    margin: .05%;
+    padding: 2%;
+    list-style: none;
+}
+
+nav{
+    background-color: rgb(53, 109, 230);
+    padding: 0.01%;
+    width: 100%;
+}
+
+a:link{
+    color: rgb(221, 205, 205);
+    font-family: 'Lobster Two', cursive;
+}
+a:hover{
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#MainNav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#home{
+    margin-inline-start: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    background-color: rgb(179, 120, 235);
+    padding: 10px;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #ffff;
+    position: absolute;
+    opacity: 0;
+    background-color: bisque;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+
+}
+
+@media only screen and (max-width: 768px){
+    ul {
+        flex-direction: column;
+    }
+
+}
