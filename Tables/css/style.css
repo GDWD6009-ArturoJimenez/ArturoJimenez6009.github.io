@@ -1,0 +1,32 @@
+caption{
+    background-color: rgb(236, 196, 183);
+    width: 350px;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;    
+    border-radius: 50%;
+
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border: solid rgb(9, 82, 82);
+}
+th, td{
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color: rgb(9, 82, 82);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: blanchedalmond;
+}
+
+tr:hover{
+    background-color: rgb(210, 187, 160);
+}
