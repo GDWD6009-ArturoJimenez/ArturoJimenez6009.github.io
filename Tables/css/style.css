@@ -24,7 +24,7 @@ th{
 }
 
 tr:nth-child(even) {
-  background-color: blanchedalmond;
+  background-color: rgb(79, 52, 12);
 }
 
 tr:hover{
