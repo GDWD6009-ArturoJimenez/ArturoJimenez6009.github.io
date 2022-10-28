@@ -4,28 +4,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style _2.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Practice 2</title>
 </head>
 <body>
 
-  <div id="MyGrid">
-    <header>
-      <h1> This is my grid area</h1>
-    </header>
+  <h1>My Form</h1>
 
-    <nav>Navigation Bar</nav>
+  <form>
+    <fieldset>
+    <label for="firstname">First Name: </label>
+    <input type="text" name="firstname" id="FirstName" placeholder="First Name" required>
+    
+    <label for="lastname">Last Name: </label>
+    <input type="text" name="lastname" id="LastName" placeholder="Last Name" required>
+   
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="Email" placeholder="Email" required>
 
-    <main>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ullam vitae earum distinctio, at rem dolorum libero temporibus commodi quidem dicta ad, eum totam cumque sapiente ea modi dolor sequi magnam dolore? Doloribus blanditiis rerum deserunt ipsum! Unde deserunt doloremque delectus laborum quos, nam, consequatur debitis libero blanditiis iure eum dolores obcaecati perferendis ullam rerum voluptatem ipsam ab consectetur qui a! Consequuntur ab iusto incidunt.</p>
+    <label for="DOB">Date of Birth: </label>
+    <input type="date" name="datepicker" id="datepicker" required>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ea autem placeat ipsa eligendi esse adipisci eius consectetur consequuntur deserunt ad ex vitae nam distinctio voluptates itaque quia enim non aspernatur tempore perspiciatis, nulla blanditiis sint ab! Atque, numquam! Earum, molestias veritatis doloremque corrupti a quos nihil et commodi dignissimos sed accusantium ut maiores ipsam ducimus aperiam nobis veniam nostrum quam labore eligendi tempora nisi ex magni laboriosam! Vitae fugiat explicabo hic, repudiandae quas consectetur. Similique beatae error veritatis hic.</p>
-    </main>
+    <input type="submit" value="Submit">
+    </fieldset>
+    <br>
+    <br>
 
-    <footer>
-      This is my footer
-    </footer>
-  </div>
+    <fieldset>
+      <legend>Credit Card Info</legend>
+      <label for="ccnumber">Credit Card Number:</label>
+      <input for="number" name="ccnumber" id="ccnumber">
+      <label for="expiration">Expiration</label>
+      <input type="date" name="expiration" id="expiration">
+      <textarea name="info" id="info" cols="40" rows="20"></textarea>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <legend>Delivery Info</legend>
+      <textarea name="info" id="info" cols="40" rows="20"></textarea>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+
+
+  </form>
   
 </body>
 </html>
