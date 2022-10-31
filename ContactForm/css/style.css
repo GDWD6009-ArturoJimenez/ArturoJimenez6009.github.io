@@ -3,3 +3,45 @@ body {
     font-family: "Helvetica", "Arial", sans-serif;
     background-color: #f0f2f5;
 }
+input[ type=submit]{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+option{
+    padding: 50%;
+}
+
+input[type=text] :invalid, input[type=number] :invalid, input[ type=email] :invalid {
+    border: 2px dashed red;
+}
+
+input[type=text] :valid, input[type=number] :valid, input[ type=email] :valid {
+    border: 2px solid green;
+}
+
+div{
+    text-align: center;
+}
+ h1{
+    text-align: center;
+    font-size: 38px;
+ }
+
+ textarea{
+    width: 80%;
+ }
+
+ select{
+    align-self: flex-start;
+    size: 70%;
+ }
+
+ input[ type=submit]:hover {
+    background-color: rgb(162, 8, 162);
+ }
+
