@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>Practice 2</title>
+  <title>Contact Form</title>
 </head>
 <body>
 
@@ -17,11 +17,13 @@
 
 <div id="contact">
   <form action="https://getform.io/f/f63a1234-5257-42ca-905b-1a6185a7d780" method="post">
+   
+   
     <br>
       <label for="Qeustion">What can we HELP you with?</label>
       <br>
       <select name="help" id="help" required>
-        <option name="selection" value="" disabled selected >Select what we can help you with</option>
+        <option name="selection" value="Non-applicable" disabled selected >Select what we can help you with</option>
         <option value="customer">Customer</option>
         <option value="customer">Customer</option>
         <option value="customer">Customer</option>
@@ -36,14 +38,14 @@
     <br>
     <label for="email">Email </label>
     <br>
-    <input type="text" name="email" id="Email" required>
+    <input type="email" name="email" id="Email" required>
     <br>
     <label for="message">Message </label>
     <br>
     <textarea name="messagearea" id="writemessage" cols="50" rows="10" required minlength="1" maxlength="350" placeholder="Type Message Here..."></textarea>
       <br>
     <input type="submit" value="Submit">
-  </fieldset>
+ </div>
   
 
 
