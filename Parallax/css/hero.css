@@ -8,3 +8,10 @@
     align-items: center;
 }
 
+.site-text{
+    font-family: 'Lobster' ;
+    font-size: xx-large;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: rgb(47, 107, 98) 6px 8px;
+}
