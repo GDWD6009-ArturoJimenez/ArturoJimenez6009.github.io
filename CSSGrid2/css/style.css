@@ -1,0 +1,15 @@
+.card1{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    
+}
+
+.card2{
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+
+.card3{
+    display: grid;
+    grid-template-columns:auto auto auto;
+}

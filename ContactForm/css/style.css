@@ -17,6 +17,7 @@ input[type=submit]{
     padding: 15px;
     border-radius: 5px;
     font-size: 15px;
+    display: flex;
 }
 
 option{
@@ -66,3 +67,14 @@ div{
     background-color: rgb(162, 8, 162);
  }
 
+ @media screen and (max-width: 1200px) {
+    main {
+        grid-template-columns: 20% 60% 20%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    main {
+        grid-template-columns: 10% 80% 10%;
+    }
+}
