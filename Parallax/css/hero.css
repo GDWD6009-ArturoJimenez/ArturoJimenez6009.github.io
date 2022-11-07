@@ -1,6 +1,6 @@
 .site-hero{
-    height: 80vh;
-    background-image: url("../assets/branding/wood_bkgrnd.jpg");  
+    height: 60vh;
+    background-image: url("../assest/branding/wood_bkgrnd.jpg");  
     background-size: cover;
     background-position: center;
     display: flex;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.site-text{
+.sites-text{
     font-family: 'Lobster' ;
     font-size: xx-large;
     color: antiquewhite;
