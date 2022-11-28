@@ -1,5 +1,8 @@
 /* stylelint-disable selector-list-comma-newline-after */
-
+#icon{
+  background-image: url("../assest/branding/foxtail_logos-01.png");
+  width: 150px;
+}
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -13,8 +16,10 @@
   text-decoration: none;
 }
 
+
+
 h1, h2, h3, h4, h5, h6, #Title {
-  font-family: "Lobster Two", cursive;
+  font-family: 'Lobster Two', cursive;
 }
 
 .display-4 {
@@ -34,7 +39,7 @@ h1, h2, h3, h4, h5, h6, #Title {
 }
 
 p{
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .flex-auto {
@@ -68,9 +73,14 @@ p{
 /*
  * Footer
  */
+
+ #footer{
+  display: inline;
+ }
+
 .blog-footer {
   padding: 2.5rem 0;
-  color: #727272;
+  color: #2e2d2d;
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;

@@ -14,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
   <title>FoxtailFarm</title>
 
    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/">
@@ -39,8 +40,9 @@
         <div class="col-4 pt-1">
           <a class="link-secondary" href="#">Follow</a>
         </div>
+        <div><img id="icon" src="./assest/branding/foxtail_logos-01.png" alt=""></div>
         <div  class="col-4 text-center">
-          <a id="Title" class="blog-header-logo text-dark" href="#">Foxtail Farm</a>
+          <a id="Title" class="blog-header-logo text-dark" href="#">Foxtail Farms</a>
         </div>
         <div class="col-4 d-flex justify-content-end align-items-center">
           <a class="link-secondary" href="#" aria-label="Search">
@@ -64,8 +66,8 @@
   </div>
   
   <main class="container">
-    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-      <div id="BClr" class="col-md-6 px-0">
+    <div id="BClr" class="p-4 p-md-5 mb-4 rounded text">
+      <div  class="col-md-6 px-0">
         <h1 id="Title" class="display-4 fst-italic">We farm and you learn</h1>
         <p class="lead my-3">We strive to offer high quality produce utilizing cutting edge technology. This innovative approach allows us to selectively cultivate the “perfect” produce.”</p>
       </div>
@@ -159,21 +161,40 @@
             <p id="Title">Quoted text goes here.</p>
           </blockquote>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed libero consequuntur sint, est iure blanditiis distinctio perspiciatis, autem a iusto beatae optio? Deserunt minus enim quo vitae voluptatum sed voluptates ullam in cupiditate ea odio veniam reprehenderit error possimus a, eum molestias, officiis illum accusantium accusamus. Quaerat, architecto laboriosam!</p>
-          <h3 id="Title">Example lists</h3>
+          <h3 id="Title">Example column</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas beatae sint numquam tempore dolore inventore modi fugiat dolorem laudantium? Corporis laboriosam harum accusamus odit adipisci, eius ex accusantium ut error facere illum recusandae perferendis tempora sit quaerat eveniet consequuntur dolore quidem debitis:</p>
-          <ul>
-            <li>First list item</li>
-            <li>Second list item</li>
-            <li>Third list item</li>
+          <div class="container text-center">
+            <ul>
+            <div class="row">
+              <div class="col">
+                First list item
+              </div>
+              <div class="col">
+              Second list item
+              </div>
+              <div class="col">
+                Third list item
+              </div>
+            </div>
           </ul>
-          <br>          
-          <p>And this is an ordered list:</p>
-          <ol>
-            <li>First list item</li>
-            <li>Second list item</li>
-            <li>Third list item</li>
-          </ol>
+          </div>
           <br>
+          <p>And this is an ordered list:</p>
+          <div class="container text-center">
+            <ol>
+            <div class="row">
+              <div class="col">
+              <li> First list item</li>
+              </div>
+              <div class="col">
+              <li>Second list item</li>
+              </div>
+              <div class="col">
+                <li> Third list item</li>
+              </div>
+            </div>
+          </ol>
+          </div>
           <br>
 
           <h2 id="Title">Heading</h2>
@@ -261,42 +282,45 @@
             <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores reiciendis, adipisci illum quam reprehenderit saepe nobis. Corrupti dolor repudiandae, explicabo tempora aliquid hic.</p>
           </div>
   
-          <div class="p-4">
-            <h4 id="Title" class="fst-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="#">January 2022</a></li>
-              <li><a href="#">February 2022</a></li>
-              <li><a href="#">March 2022</a></li>
-              <li><a href="#">April 2022</a></li>
-              <li><a href="#">May 2022</a></li>
-              <li><a href="#">June 2022</a></li>
-              <li><a href="#">July 2022</a></li>
-              <li><a href="#">August 2022</a></li>
-              <li><a href="#">September 2022</a></li>
-              <li><a href="#">October 2022</a></li>
-              <li><a href="#">November 2022</a></li>
-              <li><a href="#">December 2022</a></li>
-            </ol>
-          </div>
-  
-          <div class="p-4">
-            <h4 id="Title" class="fst-italic">Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">GitHub</a></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
+          
   
   </main>
   
   <footer class="blog-footer">
-    <p>Lorem ipsum dolor sit. <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    <p>
+    <div id="footer">
+      <div class="p-4">
+        <h4 id="Title" class="fst-italic">Archives</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">January 2022</a></li>
+          <li><a href="#">February 2022</a></li>
+          <li><a href="#">March 2022</a></li>
+          <li><a href="#">April 2022</a></li>
+          <li><a href="#">May 2022</a></li>
+          <li><a href="#">June 2022</a></li>
+          <li><a href="#">July 2022</a></li>
+          <li><a href="#">August 2022</a></li>
+          <li><a href="#">September 2022</a></li>
+          <li><a href="#">October 2022</a></li>
+          <li><a href="#">November 2022</a></li>
+          <li><a href="#">December 2022</a></li>
+        </ol>
+      </div>
+      
+      <div class="p-4">
+        <h4 id="Title" class="fst-italic">Elsewhere</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ol>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<p>Lorem ipsum dolor sit. <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="stop_their">@AASJ</a>.</p>
+<p>
       <a href="#">Back to top</a>
     </p>
   </footer>
