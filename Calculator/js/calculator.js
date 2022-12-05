@@ -12,3 +12,15 @@ function resultAssign () {
 function addTwoPlusTwo () {
   result.innerHTML = 2 + 2;
 }
+
+function addFivePlusTen () {
+  result.innerHTML = 5 + 10;
+}
+
+function addSixPlusTwentySix () {
+  result.innerHTML = 6 + 26;
+}
+
+addTwoPlusTwo()
+addFivePlusTen()
+addSixPlusTwentySix()
