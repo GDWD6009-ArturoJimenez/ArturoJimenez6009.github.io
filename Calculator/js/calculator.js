@@ -13,14 +13,19 @@ function addTwoPlusTwo () {
   result.innerHTML = 2 + 2;
 }
 
-function addFivePlusTen () {
-  result.innerHTML = 5 + 10;
+function addTenSubtractFive () {
+  result.innerHTML = 10 - 5;
 }
 
-function addSixPlusTwentySix () {
-  result.innerHTML = 6 + 26;
+function addSixMultiplyTwentySix () {
+  result.innerHTML = 6 * 26;
 }
 
-addTwoPlusTwo()
-addFivePlusTen()
-addSixPlusTwentySix()
+function addTwentyOneDivideThree () {
+  result.innerHTML = 21 / 3;
+}
+
+// addTwoPlusTwo()
+// addTenSubtractFive()
+// addSixMultiplyTwentySix()
+// addTwentyOneDivideThree()
