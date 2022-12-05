@@ -6,11 +6,9 @@ function resultAssign () {
   console.log ("Variables num represents the number:" + num);
 }
 
-resultAssign()
+// resultAssign()
 
 
 function addTwoPlusTwo () {
   result.innerHTML = 2 + 2;
 }
-
-addTwoPlusTwo()
