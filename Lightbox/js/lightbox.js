@@ -13,3 +13,11 @@ function openLightbox(){
 let coffeeImage = document.getElementById ('coffeeImage1');
 
 coffeeImage.onclick = openLightbox;
+
+function closeLightbox(){
+  lightboxContainer.classList.remove('display')
+  lightbox.src = "";
+}
+
+lightboxBackground.onclick = closeLightbox;
+lightboxCloser.onclick = closeLightbox;
