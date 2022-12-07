@@ -8,16 +8,52 @@ function openLightbox(){
 
   lightbox.src = this.src;
 }
+let ImageGallery = document.getElementsByClassName
+("ImageGallery");
 
+for (let i = 0; i < ImageGallery.length; i++) {
+  let ImageGallerys = ImageGallery[i];
+  ImageGallerys.onclick = openLightbox;
+  }
 
-let coffeeImage = document.getElementById ('coffeeImage1');
-
-coffeeImage.onclick = openLightbox;
 
 function closeLightbox(){
   lightboxContainer.classList.remove('display')
   lightbox.src = "";
 }
 
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
+let closers = document.getElementsByClassName('closer');
+
+
+
+
+
+
+
+
+
+
+// let coffeeImage = document.getElementById ('coffeeImage1');
+// coffeeImage.onclick = openLightbox;
+
+// let coffeeImage = document.getElementById ('coffeeImage2');
+// coffeeImage.onclick = openLightbox;
+
+// let coffeeImage = document.getElementById ('coffeeImage3');
+// coffeeImage.onclick = openLightbox;
+
+// let coffeeImage = document.getElementById ('coffeeImage4');
+// coffeeImage.onclick = openLightbox;
+
+// let coffeeImage = document.getElementById ('coffeeImag5');
+// coffeeImage.onclick = openLightbox;
+
+// let coffeeImage = document.getElementById ('coffeeImage6');
+// coffeeImage.onclick = openLightbox;
+
+// let coffeeImage = document.getElementById ('coffeeImage7');
+// coffeeImage.onclick = openLightbox;
+
+
+// lightboxBackground.onclick = closeLightbox;
+// lightboxCloser.onclick = closeLightbox;
