@@ -24,6 +24,8 @@ function closeLightbox(){
 
 let closers = document.getElementsByClassName('closer');
 
+lightboxBackground.onclick = closeLightbox;
+lightboxCloser.onclick = closeLightbox;
 
 
 
@@ -54,6 +56,3 @@ let closers = document.getElementsByClassName('closer');
 // let coffeeImage = document.getElementById ('coffeeImage7');
 // coffeeImage.onclick = openLightbox;
 
-
-// lightboxBackground.onclick = closeLightbox;
-// lightboxCloser.onclick = closeLightbox;
