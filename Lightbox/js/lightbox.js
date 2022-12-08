@@ -24,13 +24,11 @@ function closeLightbox(){
 
 let closers = document.getElementsByClassName('closer');
 
-for (let i = 0; i < ImageGallery.length; i++) {
-  let ImageGallerys = ImageGallery[i];
-  ImageGallerys = lightboxCloser;
+for (let i = 0; i < closers.length; i++) {
+  let ImageGallerys = closers [i];
+  ImageGallerys.onclick = closeLightbox;
 }
 
-// lightboxBackground.onclick = closeLightbox;
-// lightboxCloser.onclick = closeLightbox;
 
 
 
