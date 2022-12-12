@@ -1,5 +1,5 @@
 body {
-  background-color: salmon;
+  background-color: rgb(165, 37, 23);
   color: white;
 
 }
@@ -10,10 +10,18 @@ body {
   margin: 10% auto;
 }
 
-.chucked {
+.chucked1 {
   height: 75px;
   width: 75px;
   background-color: white;
+  margin-top: 50px;
+  border-radius: 6%;
+}
+
+.chucked {
+  height: 75px;
+  width: 75px;
+  background-color: lightgrey;
   margin-top: 50px;
   border-radius: 6%;
 }
