@@ -1,0 +1,126 @@
+body #main-content #top-page{
+  background-image: url(/Projects/Final-Project/Disney+/assest/image/background.jpeg);
+  height: 100%;
+  
+}
+body{
+  background-color: rgb(0, 0, 18);
+}
+
+nav ul li a{
+  color: silver;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 26px;
+  font-family: sarabun,sans-serif;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateZ(0);
+  transition: opacity .5s ease-out;
+  align-items: center;
+  display: flex;
+  padding: 0 12px 0 20px;
+  background-color: transparent;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 3;
+}
+.bundle{
+color: silver;
+font-style: normal;
+font-weight: 400;
+letter-spacing: .2px;
+line-height: 26px;
+align-items: center;
+display: block;
+height: auto;
+width: 75%;
+}
+
+.p{
+  color: silver;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 26px;
+  font-family: sarabun,sans-serif;
+  text-align: center;
+  margin: 0 0 24px;
+  margin-bottom: 20px;
+}
+
+#email, #button1{
+   width: 90%;
+   font-size: medium;
+   padding: 13px 15px;
+   margin: 4px 4px;
+   box-sizing: border-box;
+   border: 0.5px solid;
+   border-radius: 6px;
+}
+#button1{
+  background-color: blue;
+  color: white;
+}
+
+#Terms-Apply{
+  color: lightgrey;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 26px;
+  font-family: sarabun,sans-serif;
+  text-align: center;
+  margin: 0 0 24px;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+.TA{
+  color: white;
+}
+#pic{
+min-height: 1px;
+display: inline;
+height: auto;
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 3%;
+max-width: 600px;
+align-items: center;
+}
+
+#vapo{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 26px;
+  text-align: center;
+  display: flex;
+  color: white;
+  font-family: sarabun, sans-serif;
+  margin: 0 0 24px;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  main {
+      grid-template-columns: 20% 60% 20%;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  main {
+      grid-template-columns: 10% 80% 10%;
+  }
+}
