@@ -1,13 +1,14 @@
 body #main-content #top-page{
   background-image: url(/Projects/Final-Project/Disney+/assest/image/background.jpeg);
   height: 100%;
-  
+  margin: 0.5px;
+
 }
 body{
   background-color: rgb(0, 0, 18);
 }
 
-nav ul li a{
+nav ul li a span{
   color: silver;
   font-size: 16px;
   font-style: normal;
@@ -26,7 +27,7 @@ nav ul li a{
   padding: 0 12px 0 20px;
   background-color: transparent;
   opacity: 1;
-  pointer-events: none;
+  pointer-events: fill;
   z-index: 3;
 }
 .bundle{
@@ -48,7 +49,7 @@ width: 75%;
   font-weight: 400;
   letter-spacing: .2px;
   line-height: 26px;
-  font-family: sarabun,sans-serif;
+  font-family: sarabun, sans-serif;
   text-align: center;
   margin: 0 0 24px;
   margin-bottom: 20px;
@@ -112,6 +113,36 @@ align-items: center;
 }
 
 
+.middle{
+  color: silver;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+  font-family: sarabun,sans-serif;
+  height: 70px;
+  position:static ;
+  right: 0;
+  top: 0;
+  transform: translateZ(0);
+  transition: opacity .5s ease-out;
+  align-items: center;
+  display: flex;
+  padding: 0 16px 0 20px;
+  background-color: transparent;
+  opacity: 1;
+  pointer-events:fill ;
+  z-index: 3;
+}
+
+.img{
+  margin: 5px;
+  width: 200px;
+  padding: 0.5px;
+  padding-top: 1px;
+  padding-inline-start: 3px;
+}
 
 @media screen and (max-width: 1200px) {
   main {
