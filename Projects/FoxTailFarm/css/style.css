@@ -3,6 +3,17 @@
   background-image: url("../assest/branding/foxtail_logos-01.png");
   width: 150px;
 }
+.searchbar{
+  color: #727272;
+  margin-right: 8%;
+}
+
+#signup{
+  margin-right: 238%;
+  width: 50% auto;
+  height: 50% auto;
+}
+
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
 }
